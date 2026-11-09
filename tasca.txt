@@ -1,0 +1,38 @@
+TASCA: LAYOUT RESPONSIVE D'IMATGES
+=================================
+
+## Objectiu
+
+Crea un layout responsive per mostrar les imatges adjuntes.
+
+## Requisits
+
+R01. Totes les imatges han de tenir les mateixes dimensions i ser quadrades.
+     No han de quedar deformades ni presentar línies negres horitzontals o
+     verticals al seu voltant.
+
+R02. Hi ha d'haver 8 px d'espai entre imatges adjacents i, com a mínim, 16 px
+     entre les imatges i els extrems de la finestra. Les vores de les imatges
+     han de ser arrodonides, amb un radi de 12 px.
+
+R03. Per a amplades inferiors a 600 px, mostra les imatges en una columna i
+     adapta'n la mida a la finestra.
+
+R04. Per a amplades de 600 px o més i inferiors a 840 px, mostra les imatges
+     en dues columnes i adapta'n la mida a la finestra.
+
+R05. Per a amplades de 840 px o més, mostra les imatges en tres columnes.
+
+R06. Quan es mostrin tres columnes, les imatges no poden superar els 300 px
+     d'amplada ni d'alçada.
+
+## Restriccions tècniques
+
+- Utilitza Flexbox per crear el layout.
+- No utilitzis CSS Grid.
+- No utilitzis llibreries CSS.
+
+## Lliurament
+
+Lliura el repositori a GitHub o GitLab i convida-hi aquest usuari:
+rtomrud@gmail.com
